@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 60px;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.clock-card h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.time {
+  font-size: 60px;
+  font-weight: bold;
+  color: #00f5d4;
+  margin: 10px 0;
+}
+
+.date {
+  font-size: 18px;
+  opacity: 0.8;
+}
